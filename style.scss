@@ -1,0 +1,261 @@
+@import "reset";
+@import "verables";
+
+#header {
+  position: absolute;
+  width: 100%;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+
+    &--firstMenu a {
+      padding: 10px;
+      font-size: 15px;
+      color: white;
+    }
+
+    &--secondMenu a {
+      padding: 10px;
+      font-size: 15px;
+      color: white;
+    }
+  }
+}
+
+#section {
+  background: url("/img/IMAGE1.png") no-repeat center/cover;
+  padding: 100px 0 98px 0;
+
+  .section {
+    padding: 20px 0;
+
+    &--eco {
+      font-size: 63px;
+      color: white;
+      animation: zag 1s linear;
+    }
+
+    @keyframes zag {
+      0%{
+        margin-left: -550px;
+      }
+      100%{
+        margin-left: 0;
+      }
+    }
+
+    &--shopBtn {
+      background: #1F1E1E;
+      border: 1px solid #1F1E1E;
+      border-radius: 4.16667px;
+      width: 200px;
+      height: 37px;
+      font-size: 9px;
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      margin-top: 20px;
+      transition: .2s;
+      animation: btn 1s linear;
+    }
+    
+    @keyframes btn {
+      0%{
+        background: transparent;
+      }
+      100%{
+
+      }
+    }
+
+    &--shopBtn:hover {
+      background: white;
+      color: black;
+    }
+
+    &--Cookies {
+      margin-left: 950px;
+      margin-top: 200px;
+
+      &__btnManage {
+        font-size: 10px;
+        color: black;
+        background: transparent;
+      }
+
+      &__btnAccept {
+        font-size: 10px;
+        color: white;
+        background: transparent;
+      }
+    }
+  }
+}
+
+#drops {
+  .drops {
+    &--advantages {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &--nDrops {
+      font-weight: 400;
+      font-size: 125px;
+      text-align: center;
+      color: #1F1E1E;
+    }
+
+    &--colors {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 800px;
+
+      small {
+        display: flex;
+        align-items: flex-end;
+      }
+
+    }
+
+    &--shopBtn {
+      background: #1F1E1E;
+      border: 1px solid #1F1E1E;
+      border-radius: 4.16667px;
+      width: 200px;
+      height: 37px;
+      font-size: 9px;
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      margin-top: 20px;
+      transition: .2s;
+    }
+
+    &--shopBtn:hover {
+      background: white;
+      color: black;
+    }
+
+    &--misia {
+      padding: 100px 0 0 0;
+    }
+
+    &--just {
+      font-size: 38px;
+      text-align: center;
+      padding: 50px 0;
+    }
+
+    &--img {
+      position: relative;
+      padding: 30px 0;
+
+      &__text {
+        position: absolute;
+        left: 770px;
+        top: 170px;
+      }
+
+      &__text h1 {
+        font-weight: 400;
+        font-size: 52px;
+        text-align: center;
+        color: #425E44;
+      }
+
+      &__text small {
+        font-weight: 400;
+        font-size: 9px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #425E44;
+      }
+    }
+
+    &--no {
+      font-weight: 400;
+      font-size: 192px;
+      color: #1F1E1E;
+      text-align: center;
+    }
+
+    &--voc {
+      font-weight: 400;
+      font-size: 21px;
+      text-align: center;
+      padding: 40px 0;
+
+      & button {
+        width: 127px;
+        height: 37px;
+        background: #1F1E1E;
+        border: 1px solid #1F1E1E;
+        border-radius: 4.16667px;
+        font-weight: 400;
+        font-size: 9px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        transition: .2s;
+      }
+
+      & button:hover {
+        color: #1F1E1E;
+        background: white;
+      }
+    }
+
+    &--rest {
+      position: relative;
+      &__try {
+        position: absolute;
+        left: 220px;
+        top: 170px;
+
+        & h1{
+          font-weight: 400;
+          font-size: 46px;
+          text-align: center;
+          color: #1F1E1E;
+        }
+
+        & button {
+          margin-top: 40px;
+          width: 149px;
+          height: 37px;
+          background: #1F1E1E;
+          border: 1px solid #1F1E1E;
+          border-radius: 4.16667px;
+          font-weight: 400;
+          font-size: 9px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          transition: .2s;
+        }
+
+        & button:hover {
+          color: #1F1E1E;
+          background: white;
+        }
+      }
+    }
+
+    &--inp{
+      width: 267px;
+      height: 37px;
+      border: 1px solid #E0E0E0;
+      border-radius: 4.16667px;
+    }
+
+    &--pal{
+      font-size: 300px;
+    }
+  }
+}

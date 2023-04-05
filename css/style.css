@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#header {
+  position: absolute;
+  width: 100%;
+}
+#header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+#header .header--firstMenu a {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+}
+#header .header--secondMenu a {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+}
+
+#section {
+  background: url("/img/IMAGE1.png") no-repeat center/cover;
+  padding: 100px 0 98px 0;
+}
+#section .section {
+  padding: 20px 0;
+}
+#section .section--eco {
+  font-size: 63px;
+  color: white;
+  animation: zag 1s linear;
+}
+@keyframes zag {
+  0% {
+    margin-left: -550px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+#section .section--shopBtn {
+  background: #1F1E1E;
+  border: 1px solid #1F1E1E;
+  border-radius: 4.16667px;
+  width: 200px;
+  height: 37px;
+  font-size: 9px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 20px;
+  transition: 0.2s;
+  animation: btn 1s linear;
+}
+@keyframes btn {
+  0% {
+    background: transparent;
+  }
+}
+#section .section--shopBtn:hover {
+  background: white;
+  color: black;
+}
+#section .section--Cookies {
+  margin-left: 950px;
+  margin-top: 200px;
+}
+#section .section--Cookies__btnManage {
+  font-size: 10px;
+  color: black;
+  background: transparent;
+}
+#section .section--Cookies__btnAccept {
+  font-size: 10px;
+  color: white;
+  background: transparent;
+}
+
+#drops .drops--advantages {
+  display: flex;
+  justify-content: space-between;
+}
+#drops .drops--nDrops {
+  font-weight: 400;
+  font-size: 125px;
+  text-align: center;
+  color: #1F1E1E;
+}
+#drops .drops--colors {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 800px;
+}
+#drops .drops--colors small {
+  display: flex;
+  align-items: flex-end;
+}
+#drops .drops--shopBtn {
+  background: #1F1E1E;
+  border: 1px solid #1F1E1E;
+  border-radius: 4.16667px;
+  width: 200px;
+  height: 37px;
+  font-size: 9px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+#drops .drops--shopBtn:hover {
+  background: white;
+  color: black;
+}
+#drops .drops--misia {
+  padding: 100px 0 0 0;
+}
+#drops .drops--just {
+  font-size: 38px;
+  text-align: center;
+  padding: 50px 0;
+}
+#drops .drops--img {
+  position: relative;
+  padding: 30px 0;
+}
+#drops .drops--img__text {
+  position: absolute;
+  left: 770px;
+  top: 170px;
+}
+#drops .drops--img__text h1 {
+  font-weight: 400;
+  font-size: 52px;
+  text-align: center;
+  color: #425E44;
+}
+#drops .drops--img__text small {
+  font-weight: 400;
+  font-size: 9px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #425E44;
+}
+#drops .drops--no {
+  font-weight: 400;
+  font-size: 192px;
+  color: #1F1E1E;
+  text-align: center;
+}
+#drops .drops--voc {
+  font-weight: 400;
+  font-size: 21px;
+  text-align: center;
+  padding: 40px 0;
+}
+#drops .drops--voc button {
+  width: 127px;
+  height: 37px;
+  background: #1F1E1E;
+  border: 1px solid #1F1E1E;
+  border-radius: 4.16667px;
+  font-weight: 400;
+  font-size: 9px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: 0.2s;
+}
+#drops .drops--voc button:hover {
+  color: #1F1E1E;
+  background: white;
+}
+#drops .drops--rest {
+  position: relative;
+}
+#drops .drops--rest__try {
+  position: absolute;
+  left: 220px;
+  top: 170px;
+}
+#drops .drops--rest__try h1 {
+  font-weight: 400;
+  font-size: 46px;
+  text-align: center;
+  color: #1F1E1E;
+}
+#drops .drops--rest__try button {
+  margin-top: 40px;
+  width: 149px;
+  height: 37px;
+  background: #1F1E1E;
+  border: 1px solid #1F1E1E;
+  border-radius: 4.16667px;
+  font-weight: 400;
+  font-size: 9px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: 0.2s;
+}
+#drops .drops--rest__try button:hover {
+  color: #1F1E1E;
+  background: white;
+}
+#drops .drops--inp {
+  width: 267px;
+  height: 37px;
+  border: 1px solid #E0E0E0;
+  border-radius: 4.16667px;
+}
+#drops .drops--pal {
+  font-size: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
